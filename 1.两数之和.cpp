@@ -35,8 +35,8 @@ public:
         {
             if(a.count(target-nums[i])>0 ||a[target-nums[i]]!=i){
                 b[0]=i;
-                b[1]=a[target-nums[i]]; 
-                break;           
+                b[1]=a[target-nums[i]];
+                break;
             }
         }
         return b;
